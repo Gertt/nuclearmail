@@ -3,7 +3,7 @@
 require('es6-shim');
 
 var React = require('react');
-var router = require('./router');
+var router = require('./routers/router');
 
 // Expose React for the dev tools
 window.React = React;
