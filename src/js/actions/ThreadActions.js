@@ -2,7 +2,7 @@
 
 var ActionType = require('../constants/ActionType');
 var Dispatcher = require('../dispatchers/Dispatcher');
-var ThreadAPI = require('../doa/ThreadAPI');
+var ThreadAPI = require('../dao/ThreadAPI');
 
 'use strict';
 

@@ -1,7 +1,7 @@
 /** @flow */
 /* global gapi */
 
-var API = require('../doa/API.js');
+var API = require('../dao/API.js');
 var Dispatcher = require('../dispatchers/Dispatcher.js');
 
 function list() {

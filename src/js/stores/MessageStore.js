@@ -1,10 +1,10 @@
 /** @flow */
 
-var API = require('../doa/API');
+var API = require('../dao/API');
 var ActionType = require('../constants/ActionType');
 var BaseStore = require('../stores/BaseStore');
 var Message = require('../models/Message');
-var MessageAPI = require('../doa/MessageAPI');
+var MessageAPI = require('../dao/MessageAPI');
 var _ = require('lodash');
 
 class MessageStore extends BaseStore {

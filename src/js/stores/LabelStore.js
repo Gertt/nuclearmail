@@ -1,6 +1,6 @@
 /** @flow */
 
-var LabelAPI = require('../doa/LabelAPI');
+var LabelAPI = require('../dao/LabelAPI');
 var BaseStore = require('../stores/BaseStore');
 
 class LabelStore extends BaseStore {

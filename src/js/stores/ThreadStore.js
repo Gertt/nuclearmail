@@ -3,7 +3,7 @@ Thread/** @flow */
 var ActionType = require('../constants/ActionType.js');
 var BaseStore = require('../stores/BaseStore.js');
 var Thread = require('../models/Thread');
-var ThreadAPI = require('../doa/ThreadAPI.js');
+var ThreadAPI = require('../dao/ThreadAPI.js');
 var _ = require('lodash');
 
 type ListResult = {

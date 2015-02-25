@@ -2,7 +2,7 @@
 /* global gapi */
 
 var ActionType = require('../constants/ActionType.js');
-var API = require('../doa/API.js');
+var API = require('../dao/API.js');
 var Dispatcher = require('../dispatchers/Dispatcher.js');
 var Message = require('../models/Message');
 var MessageTranslator = require('../helpers/MessageTranslator');

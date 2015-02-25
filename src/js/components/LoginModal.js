@@ -1,6 +1,6 @@
 /** @flow */
 
-var API = require('../doa/API');
+var API = require('../dao/API');
 var Button = require('../components/Button');
 var Colors = require('../helpers/Colors');
 var React = require('react/addons');
